@@ -1,0 +1,71 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #121212;
+    color: rgb(232, 232, 232);
+    text-shadow: 1px 1px #000000;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainImg {
+    width: 400px;
+    height: 400px
+}
+
+.albumArt {
+    position: absolute;
+    transform: translate(-269px, 146px);
+    opacity: 100%;
+    width: 65px;
+    z-index: 10;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 70%);
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+button {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    position: relative;
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    border: 0;
+    background: rgb(38, 38, 38);
+    border-bottom: 2px solid rgb(25, 25, 25);
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px rgb(25, 25, 25);
+    box-shadow: inset 0 -2px rgb(25, 25, 25);
+    font-weight: bold;
+}
+button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
