@@ -13,7 +13,7 @@ async function createAlbumArtDiv(artist, album) {
         img.alt = `${artist} - ${album}`;
         albumCounter++;
 
-        if (albumCounter == 4) {
+        if (albumCounter == 3) {
             document.getElementById("rack").style.position = "fixed";
             document.getElementById("rack").style.bottom = "25%";
             document.getElementById("rack").style.top = "25%";

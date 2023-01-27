@@ -8,6 +8,7 @@ body {
 }
 
 #main {
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,17 +21,18 @@ body {
 }
 
 #mainImg {
-    width: 400px;
-    height: 400px
+    min-width: 400px;
+    min-height: 400px;
+    width: 700px;
+    height: 700px;
 }
 
 .albumArt {
     position: absolute;
-    transform: translate(-269px, 146px);
+    transform: translate(-584px, 162px);
     opacity: 100%;
-    width: 65px;
+    width: 205px;
     z-index: 10;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 70%);
 }
 
 input {
